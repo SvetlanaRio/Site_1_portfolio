@@ -16,7 +16,6 @@ body {
 }
 .container {
     max-width: 1440px;
-    background-color: aquamarine;
     margin: 0 auto;
 }
 /* Стили для текста */
@@ -79,13 +78,49 @@ body {
     block-size: cover;
 }
 .header__title {
-    
+    padding-top: 39px;
+    margin-bottom: 325px;
+    margin-left: 665px;
+   
 }
 .logo {
+    position: absolute;
+    width: 107px;
+    height: 29px;
+   
 }
 .h1 {
+    margin: 0 21px;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    line-height: 70.31px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 5.7px;
+   color:var(--white-color) ;
 }
-.h4 {
+ .h4 {
+    margin: 0 auto ;
+    font-weight: 400;
+    max-width: 386px;
+    max-height: 22px;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: flex-end;
+    text-align: center;
+    
+  color: var(--white-color);
 }
-.h3 {
+
+.h5 {
+  padding: 207px;
+    font-weight: 400;
+    min-width: 117px;
+    min-height: 15px;
+    font-size: 11px;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 3.7px;
+    color: var(--white-color);
 }
