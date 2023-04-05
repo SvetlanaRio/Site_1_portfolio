@@ -15,8 +15,10 @@ body {
 
 }
 .container {
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 ;
 }
 /* Стили для текста */
 :root {
@@ -72,21 +74,25 @@ body {
 
 /* header */
 .header {
+max-width: 1140px;
     min-height: 768px;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     block-size: cover;
 }
-.header__title {
+.header__title { 
+
     padding-top: 39px;
     margin-bottom: 325px;
     margin-left: 665px;
    
 }
 .logo {
+   
     position: absolute;
-    width: 107px;
+   width: 107px;
     height: 29px;
+
    
 }
 .h1 {
@@ -123,4 +129,78 @@ body {
     text-align: center;
     letter-spacing: 3.7px;
     color: var(--white-color);
+}
+/* navbar (навигация) */
+.nav {
+    background-color: #979797;
+    max-width: 1442px;
+    height: 65px;
+    margin: o auto;
+}
+.navbar {
+
+}
+.navbar__nav {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+
+}
+
+.header__item {
+    margin-right: 48px;
+}
+.header__item:last-child {
+    margin-right: 250px;
+}
+.header__link {
+    font-size: 12px;
+    line-height: 14px;
+    color: #48555B;
+    text-decoration: none;
+}
+/*Раздел Our story */
+
+.story {
+}
+.story_left {
+    max-width: 406px;
+}
+.story_title_2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px 0;
+}
+.story_title_2:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 10px auto 0;
+}
+.story_inner {
+    display: flex;
+}
+.story_title_3{
+font-weight: bold;
+font-size: 20px;
+}
+.accent-color {
+    color: #00A4E5;
+}
+.story_text {
+}
+.story_right {
+}
+.story_item {
 }
